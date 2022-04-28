@@ -1,0 +1,5 @@
+flawless: 7674.4
+simplesolution: 9713.007
+solution_01: 8812.306
+solution_02: 8678.9
+
