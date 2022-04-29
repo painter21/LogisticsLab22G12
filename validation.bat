@@ -1,2 +1,2 @@
-E:\Eve_Echoes\Bot\EveB\venv\Scripts\python.exe C:\Users\poffe\Desktop\LLP\Version1\validation.py
+C:\Users\Markus\AppData\Local\Programs\Python\Python310\python.exe validation.py
 pause

@@ -2,4 +2,8 @@ flawless: 7674.4
 simplesolution: 9713.007
 solution_01: 8812.306
 solution_02: 8678.9
-
+solution_03: 8654.5
+flawless(3): 2558
+multibot(3): 2891.5
+flawless(5): 1534.8
+multibot(5): 1910
