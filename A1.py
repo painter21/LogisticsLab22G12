@@ -370,6 +370,8 @@ def solution_02():
     The robot checks if there are any packages to deliver in the current station and grabs one to the location with
     maximum amount of packages. If not it goes empty-handed to the NEXT CLOSEST station.
     """
+
+    print(get_remaining_packages(transport_demand))
     global task_state
 
     # roboter_state:
@@ -401,7 +403,7 @@ def solution_02():
 
         # where is the next package
         else:
-            print(location)
+            print(get_remaining_packages(transport_demand))
             destination = get_next_closest_location_with_package(location)
             schedule.write(str(vehicle_id) + ";" + str(location) + ";" + str(loaded) + ";" + "0" + "\n")
             score += score_calc(location, destination)
@@ -480,6 +482,7 @@ def multibot_solution_02(robot_count):
     for i in range(robot_count):
         robot_list.append(Robot(i + 1))
 
+
     while 1:
         # check if done
         all_shutdown = 1
@@ -549,8 +552,5 @@ if 1:
     layout = read_and_transform_to_array('layout.txt')
     calc_distances()
 
-solution_03(147, 13)
-"""list_01 = [1]
-list_01.append(1)
-print(list_01)
-"""
+solution_03(148, 13)
+#solution_02()
